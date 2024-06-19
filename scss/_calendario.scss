@@ -1,0 +1,68 @@
+/* calendario */
+
+.mainCalendario {
+  margin: $margenGrande;
+}
+
+.encabezadoCalendario h1,h2 {
+  color: map-get($paleta-colores, tituloTexto);
+}
+.encabezadoCalendario h1 {
+  margin: 4vh;
+}
+
+.contenedorCalendario {
+  @extend .contenedorGenerico;
+  justify-content: center;
+  margin: 1vh;
+  /*background-color: orangered;*/
+}
+
+
+.tarjetaCalendario {
+  max-width: 280px;
+  justify-content: stretch;
+  background-color: map-get($paleta-colores, fondoTarjeta);
+  border: 1px solid map-get($paleta-colores, bordeGris);
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: $margenMinimo;
+  border-radius: 10px;
+  flex-grow: 1;
+  position: relative;
+ 
+}
+
+.fechaCal {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  transform: translate(-25%, -10%);
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: map-get($paleta-colores, fondoCalendario);
+  color: map-get($paleta-colores, blancoTexto);
+  padding: 3px;
+}
+
+.descripCal {
+  position: absolute;
+  bottom: 1%;
+  left: 10%;
+  transform: translate(-5%, -5%);
+  text-align: center;
+  //margin: 5px 0;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: map-get($paleta-colores, fondoVerde);
+  color: map-get($paleta-colores, blancoTexto);
+  padding: 3px;
+
+}
+
+.imagenCalendario {
+  max-width: 100%;
+  border-radius: 10px;
+}
+

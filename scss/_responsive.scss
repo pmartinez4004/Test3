@@ -1,0 +1,33 @@
+@media (max-width:1023px) {
+
+    /* Galeria */
+    .contenedorGaleria {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0px $margenMedio;
+        gap: 15px;
+    }
+
+    /* Nosotros */
+    .grupoEleccion {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* Vista móvil*/
+
+@media (max-width:420px) {
+
+    /* Galeria */
+    .contenedorGaleria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grupoEleccion {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedorNosotros {
+        margin: $margenMedio;
+    }
+}

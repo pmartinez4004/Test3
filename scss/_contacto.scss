@@ -1,0 +1,29 @@
+/* contacto */
+
+.botonFormulario {
+  background-color: map-get($paleta-colores, fondoVerde);
+  ;
+  color: map-get($paleta-colores, blancoTexto);
+}
+
+.tituloContacto {
+  margin: 25px;
+  color: map-get($paleta-colores, tituloTexto);
+}
+
+.itemContacto h3 {
+  margin-top: 25px;
+}
+
+.imgContacto {
+  width: 370px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-bg: darkslategrey;
+  --bs-accordion-active-color: #ccc;
+}

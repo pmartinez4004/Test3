@@ -1,0 +1,27 @@
+h1, h2 {
+    text-align: center;
+  }
+  
+  .bannerSuperior {
+    width: 100%;
+  }
+  
+  .banner1 {
+    position: relative;
+  }
+  
+  .tituloBanner {
+    size: 40px;
+    color: map-get($paleta-colores, tituloTexto);
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+  }
+  
+  .textoBanner {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 18px;
+  }
+  

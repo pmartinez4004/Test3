@@ -1,0 +1,7 @@
+@mixin estructuraGrid ($columnas, $gap, $margenIzquierdo, $margenDerecho) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $gap;
+    margin-left: $margenIzquierdo;
+    margin-right: $margenDerecho;
+}

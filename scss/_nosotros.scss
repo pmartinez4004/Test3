@@ -1,0 +1,51 @@
+/* nosotros */
+
+.encabezadoNosotros {
+  margin: $margenMedio;
+  color: map-get($paleta-colores, tituloTexto);
+}
+
+.contenedorNosotros {
+  @extend .contenedorGenerico;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.tarjetaNosotros {
+  align-items: center;
+  margin: 15px 0px;
+
+  p {
+    text-align: center;
+  }
+}
+
+.grupoEleccion {
+  @include estructuraGrid (4, 30px, 50px, 50px);
+}
+
+.contenedorRazonesEleccion p {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.tarjetaEleccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid map-get($paleta-colores,bordeGris);
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: $margenMinimo;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.imgElegirnos {
+  width: 75px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}

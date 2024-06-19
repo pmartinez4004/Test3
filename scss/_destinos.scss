@@ -1,0 +1,63 @@
+/* Destinos */
+
+.mapa {
+  width: 100%;
+  height: 100%;
+}
+
+.tarjeta {
+  justify-content: center;
+   background-color: map-get($paleta-colores, fondoTarjeta);
+  border: 1px solid map-get($paleta-colores, bordeGris);
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  //background-color: red;
+  padding: 10px;
+ 
+}
+
+.tituloDestinos {
+  margin-top: 80px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: map-get($paleta-colores, tituloTexto);
+}
+
+.textoDestinos {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.textoRegion {
+  justify-content: start;
+  text-align: center;
+  background-color: map-get($paleta-colores, fondoVerde);
+  color: map-get($paleta-colores, blancoTexto);
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  transform: translate(-20%, -10%);
+  padding-left:3px;
+  padding-right: 3px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 93%;
+  border-radius: 10px;
+}
+
+.vinculo {
+  align-self: center;
+  background-color: map-get($paleta-colores, fondoVerde);
+  color: map-get($paleta-colores, blancoTexto);
+  margin: $margenMedio;
+
+  a {
+    text-decoration: none;
+    color: map-get($paleta-colores, blancoTexto);
+    text-align: center;
+  }
+}
