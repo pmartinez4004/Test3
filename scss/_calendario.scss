@@ -7,6 +7,7 @@
 .encabezadoCalendario h1,h2 {
   color: map-get($paleta-colores, tituloTexto);
 }
+
 .encabezadoCalendario h1 {
   margin: 4vh;
 }
@@ -15,9 +16,7 @@
   @extend .contenedorGenerico;
   justify-content: center;
   margin: 1vh;
-  /*background-color: orangered;*/
 }
-
 
 .tarjetaCalendario {
   max-width: 280px;
@@ -58,7 +57,6 @@
   background-color: map-get($paleta-colores, fondoVerde);
   color: map-get($paleta-colores, blancoTexto);
   padding: 3px;
-
 }
 
 .imagenCalendario {

@@ -5,7 +5,6 @@
   color: map-get($paleta-colores, tituloTexto);
 }
 
-  
 .contenedorGaleria {
   @include estructuraGrid (4, 30px, 50px, 50px);
 }

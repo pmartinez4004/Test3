@@ -57,6 +57,7 @@ h1, h2 {
   margin-top: 2%;
   text-align: center;
   font-size: 18px;
+  padding: 4px;
 }
 
 /* Destinos */
@@ -146,7 +147,6 @@ footer h3 {
 .contenedorCalendario {
   justify-content: center;
   margin: 1vh;
-  /*background-color: orangered;*/
 }
 
 .tarjetaCalendario {
@@ -324,6 +324,10 @@ footer h3 {
 }
 /* Vista móvil*/
 @media (max-width: 420px) {
+  /* Banner */
+  .textBanner {
+    font-size: 12;
+  }
   /* Galeria */
   .contenedorGaleria {
     grid-template-columns: repeat(1, 1fr);
